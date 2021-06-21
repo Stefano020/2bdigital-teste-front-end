@@ -1,5 +1,6 @@
-@import "./components/blog";
-@import "./components/support";
-@import "./components/features";
+@import "base";
 @import "layout";
 @import "media";
+@import "blog";
+@import "features";
+@import "support";
