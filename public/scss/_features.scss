@@ -1,3 +1,17 @@
-.feature-background {
+.features-background {
   background-color: $white;
+}
+
+.features-header {
+  text-align: center;
+  margin: 1rem;
+}
+
+.features-cards-container {
+  display: flex;
+  margin: 1rem;
+}
+
+.features-cards-img {
+  width: 12rem;
 }

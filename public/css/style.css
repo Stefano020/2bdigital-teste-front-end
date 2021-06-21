@@ -8,6 +8,9 @@
 html {
   font-size: 62.5%; }
 
+h1 {
+  color: #010101; }
+
 .blog-background {
   background-color: #fddb00; }
 
@@ -26,8 +29,19 @@ html {
   .dot:hover {
     background-color: white; }
 
-.feature-background {
+.features-background {
   background-color: white; }
+
+.features-header {
+  text-align: center;
+  margin: 1rem; }
+
+.features-cards-container {
+  display: flex;
+  margin: 1rem; }
+
+.features-cards-img {
+  width: 12rem; }
 
 .support-background {
   background-color: #010101; }
