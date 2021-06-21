@@ -1,7 +1,9 @@
+import Main from "./pages/Main";
+
 function App() {
   return (
     <div>
-      <h1>Initializing</h1>
+      <Main />
     </div>
   );
 }
