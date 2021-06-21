@@ -1,3 +1,21 @@
 .blog-background {
   background-color: $yellow;
 }
+
+.blog-carousel-container {
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba($white, 0.7);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  &:hover {
+    background-color: $white;
+  }
+}
