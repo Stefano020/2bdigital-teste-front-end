@@ -20,7 +20,7 @@ export default function Blog() {
         </section>
       </header>
       <main>
-        <section>
+        <section className="article-tablet-container">
           <article className="blog-article-container">
             <h2 className="blog-article-title">Inspire your inspiration</h2>
             <h5 className="blog-article-subtitle">Simple to use for your app, products showcase and your inspiration</h5>
@@ -43,12 +43,12 @@ export default function Blog() {
               className="blog-tablet-img"
             />
           </section>
+        </section>
           <section className="blog-carousel-container" >
             <span className="blog-carousel-dot" />
             <span className="blog-carousel-dot" />
             <span className="blog-carousel-dot" />
           </section>
-        </section>
       </main>
     </div>
   )
