@@ -6,32 +6,39 @@ export default function SupportFooter() {
       <section className="support-footer-address">
         <p>HALOVIETNAM LTD</p>
         <p>66, Dang Van ngu, Dong Da Hanoi, Vietnam</p>
-        <p>contact@halovietnam.com</p>
-        <p>+844 35149182</p>
+        <div className="anchors">
+          <a href="mailto:contact@halovietnam.com">
+            contact@halovietnam.com
+          </a>
+        </div>
+        <div className="anchors">
+          <a href="tel:+844 35149182">+844 35149182</a>
+        </div>
       </section>
       <div className="support-footer-menu">
         <section>
-          <p>Examples</p>
-          <p>Shop</p>
-          <p>License</p>
+          <a href="#header">Examples</a>
+          <a href="#header">Shop</a>
+          <a href="#header">License</a>
         </section>
         <section>
-          <p>Contact</p>
-          <p>About</p>
-          <p>Privacy</p>
-          <p>Term</p>
+          <a href="#header">Contact</a>
+          <a href="#header">About</a>
+          <a href="#header">Privacy</a>
+          <a href="#header">Term</a>
         </section>
         <section>
-          <p>Download</p>
-          <p>Support</p>
-          <p>Documents</p>
+          <a href="#header">Download</a>
+          <a href="#header">Support</a>
+          <a href="#header">Documents</a>
         </section>
         <section>
-          <p>Media</p>
-          <p>Blog</p>
-          <p>Forums</p>
+          <a href="#header">Media</a>
+          <a href="#header">Blog</a>
+          <a href="#header">Forums</a>
         </section>
       </div>
     </div>
   )
 }
+

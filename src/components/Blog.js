@@ -8,7 +8,7 @@ import TabletPhoto from '../icons/tablet-photo.png';
 export default function Blog() {
   return (
     <div className="blog-background">
-      <header className="header-container">
+      <header id="header" className="header-container">
         <h1 className="header-logo">
           <img className="header-logo-img" src={ BlackAppLogo } alt="App Logo" />
           tinyone

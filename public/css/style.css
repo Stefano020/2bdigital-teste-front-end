@@ -189,11 +189,18 @@ p {
   .support-footer-address p {
     color: #a0a59a;
     margin-top: 0.3rem; }
+  .support-footer-address .anchors {
+    padding-top: 0.5rem; }
+  .support-footer-address .anchors > a {
+    text-decoration: none;
+    color: #a0a59a; }
 
 .support-footer-menu {
   display: flex; }
   .support-footer-menu section {
-    margin: 1rem 1rem 1rem 1rem; }
-  .support-footer-menu section > p {
+    margin: 1rem 1rem 0rem 1rem; }
+  .support-footer-menu section > a {
+    display: flex;
+    text-decoration: none;
     color: #a0a59a;
     margin-bottom: 0.3rem; }

@@ -65,14 +65,23 @@
     color: $grey-white;
     margin-top: 0.3rem;
   }
+  .anchors {
+    padding-top: 0.5rem;
+  }
+  .anchors > a {
+    text-decoration: none;
+    color: $grey-white;
+  }
 }
 
 .support-footer-menu {
   display: flex;
   section {
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 0rem 1rem;
   }
-  section > p {
+  section > a {
+    display: flex;
+    text-decoration: none;
     color: $grey-white;
     margin-bottom: 0.3rem;
   }
