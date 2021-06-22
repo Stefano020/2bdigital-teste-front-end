@@ -12,10 +12,12 @@
 .header-logo {
   display: flex;
   align-items: center;
+  margin: 1rem 0.5rem 0rem 0.8rem;
 }
 
 .header-logo-img {
-  margin: 1rem 0.5rem 0rem 0.8rem;
+  text-align: center;
+  margin-right: 0.8rem;
 }
 
 .header-menu {
