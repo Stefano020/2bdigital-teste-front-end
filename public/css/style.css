@@ -51,6 +51,7 @@ p {
   color: #74746e;
   font-size: 1.2rem;
   font-weight: 600;
+  line-height: 1.5rem;
   margin-bottom: 0.5rem; }
 
 .blog-article-paragraph {
@@ -108,7 +109,7 @@ p {
   color: #74746e;
   font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 0.5rem; }
+  line-height: 1.5rem; }
 
 .features-cards-container {
   margin: 1rem 1rem 3rem 1rem; }
@@ -140,36 +141,59 @@ p {
   background-color: #010101; }
 
 .support-header-container {
-  text-align: center; }
+  text-align: center;
+  margin: 0rem 1rem 2rem 1rem;
+  padding-top: 3rem; }
 
 .support-header-title {
-  color: #fddb00; }
+  color: #fddb00;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 1rem; }
 
-.support-header-h3 {
+.support-header-subtitle {
+  text-align: center;
   color: #74746e;
-  opacity: 0.5; }
+  font-size: 1.2rem;
+  line-height: 1.5rem; }
 
 .input-container {
   text-align: center; }
 
 .email-input {
-  margin-right: 5px; }
+  margin-right: 5px;
+  padding: 0.2rem 0rem 0.2rem 1rem; }
 
 .submit-button {
   border: none;
   font-weight: 600;
-  padding: 1px 5px 1px 5px;
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
   background-color: #fddb00; }
 
 .support-icons-container {
   text-align: center; }
 
 .support-icons-img {
+  width: 25px;
   margin: 2rem 0.5rem 2rem 0.5rem; }
 
 .support-footer-container {
   display: flex;
-  margin: 3px; }
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem; }
 
-.support-footer-section {
-  margin: 3px; }
+.support-footer-address {
+  text-align: center;
+  margin-bottom: 1rem; }
+  .support-footer-address p {
+    color: #a0a59a;
+    margin-top: 0.3rem; }
+
+.support-footer-menu {
+  display: flex; }
+  .support-footer-menu section {
+    margin: 1rem 1rem 1rem 1rem; }
+  .support-footer-menu section > p {
+    color: #a0a59a;
+    margin-bottom: 0.3rem; }

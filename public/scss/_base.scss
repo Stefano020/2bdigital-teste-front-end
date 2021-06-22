@@ -1,7 +1,8 @@
 // Base: contained within this file are all your resets, variables, mixins, and any utility classes.
 $white: rgba(255, 255, 255, 1);
 $yellow: rgba(253, 219, 0, 1);
-$grey: rgb(116, 116, 110);
+$grey-white: rgb(160, 165, 154);
+$grey: rgba(116, 116, 110, 1);
 $black: rgba(1, 1, 1, 1);
 
 *,

@@ -10,7 +10,7 @@ export default function Support() {
     <div className="support-background">
       <header className="support-header-container">
         <h1 className="support-header-title">Keep in touch with us</h1>
-        <h3 className="support-header-h3">
+        <h3 className="support-header-subtitle">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Repellendus facilis eum quos aliquid commodi consequatur
           quae, saepe iure quia labore ipsum dolore.

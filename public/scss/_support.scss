@@ -2,47 +2,78 @@
   background-color: $black;
 }
 
+// HEADER LAYOUT
 .support-header-container {
   text-align: center;
+  margin: 0rem 1rem 2rem 1rem;
+  padding-top: 3rem;
 }
 
 .support-header-title {
   color: $yellow;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
 }
 
-.support-header-h3 {
+.support-header-subtitle {
+  text-align: center;
   color: $grey;
-  opacity: 0.5;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
+// INPUT LAYOUT
 .input-container {
   text-align: center;
 }
 
 .email-input {
   margin-right: 5px;
+  padding: 0.2rem 0rem 0.2rem 1rem;
 }
 
 .submit-button {
   border: none;
   font-weight: 600;
-  padding: 1px 5px 1px 5px;
+  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
   background-color: $yellow;
 }
 
+// ICONS LAYOUT
 .support-icons-container {
   text-align: center;
 }
 
 .support-icons-img {
+  width: 25px;
   margin: 2rem 0.5rem 2rem 0.5rem;
 }
 
+// FOOTER LAYOUT
 .support-footer-container {
   display: flex;
-  margin: 3px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
 }
 
-.support-footer-section {
-  margin: 3px;
+.support-footer-address {
+  text-align: center;
+  margin-bottom: 1rem;
+  p {
+    color: $grey-white;
+    margin-top: 0.3rem;
+  }
+}
+
+.support-footer-menu {
+  display: flex;
+  section {
+    margin: 1rem 1rem 1rem 1rem;
+  }
+  section > p {
+    color: $grey-white;
+    margin-bottom: 0.3rem;
+  }
 }
