@@ -17,6 +17,20 @@ p {
 .blog-background {
   background-color: #fddb00; }
 
+.header-container {
+  display: flex;
+  justify-content: space-between; }
+
+.header-logo {
+  display: flex;
+  align-items: center; }
+
+.header-logo-img {
+  margin: 5px 5px 0px 5px; }
+
+.header-menu {
+  margin: 5px 5px 0px 0px; }
+
 .blog-carousel-container {
   text-align: center; }
 
