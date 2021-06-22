@@ -8,74 +8,98 @@ import DownloadIcon from '../icons/download-icon.png';
 
 export default function FeaturesCards() {
   return (
-    <div>
-      <section className="features-cards-container">
+    <div className="features-cards-container">
+      <section className="features-cards-card">
+      <div className="features-cards-img-container">
         <div className="features-cards-img">
-          <img src={ IpadIcon } alt="Tablet icon" />
+          <img className="features-cards-img--img" src={ IpadIcon } alt="Tablet icon" />
         </div>
+      </div>
         <div className="features-cards-content">
-          <h2>Fully Responsive</h2>
-          <p>
+          <h2 className="features-cards-content-title">
+            Fully Responsive
+          </h2>
+          <p className="features-cards-content-paragraph">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
       </section>
-      <section className="features-cards-container">
-        <div className="features-cards-img">
-          <img src={ LayerIcon } alt="Tablet icon" />
+      <section className="features-cards-card">
+        <div className="features-cards-img-container">
+          <div className="features-cards-img">
+            <img className="features-cards-img--img" src={ LayerIcon } alt="Tablet icon" />
+          </div>
         </div>
         <div className="features-cards-content">
-          <h2>Fully Layered PSD</h2>
-          <p>
+          <h2 className="features-cards-content-title">
+            Fully Layered PSD
+          </h2>
+          <p className="features-cards-content-paragraph">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
       </section>
-      <section className="features-cards-container">
+      <section className="features-cards-card">
+      <div className="features-cards-img-container">
         <div className="features-cards-img">
-          <img src={ FileIcon } alt="Tablet icon" />
+          <img className="features-cards-img--img" src={ FileIcon } alt="Tablet icon" />
         </div>
+      </div>
         <div className="features-cards-content">
-          <h2>Font Awesome Icons</h2>
-          <p>
+          <h2 className="features-cards-content-title">
+            Font Awesome Icons
+          </h2>
+          <p className="features-cards-content-paragraph">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
       </section>
-      <section className="features-cards-container">
-        <div className="features-cards-img">
-          <img src={ HtmlIcon } alt="Tablet icon" />
+      <section className="features-cards-card">
+        <div className="features-cards-img-container">
+          <div className="features-cards-img">
+            <img className="features-cards-img--img" src={ HtmlIcon } alt="Tablet icon" />
+          </div>
         </div>
         <div className="features-cards-content">
-          <h2>HTML3 & CSS3</h2>
-          <p>
+          <h2 className="features-cards-content-title">
+            HTML3 & CSS3
+          </h2>
+          <p className="features-cards-content-paragraph">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
       </section>
-      <section className="features-cards-container">
-        <div className="features-cards-img">
-          <img src={ EmailIcon } alt="Tablet icon" />
+      <section className="features-cards-card">
+        <div className="features-cards-img-container">
+          <div className="features-cards-img">
+            <img className="features-cards-img--img" src={ EmailIcon } alt="Tablet icon" />
+          </div>
         </div>
         <div className="features-cards-content">
-          <h2>Email Template</h2>
-          <p>
+          <h2 className="features-cards-content-title">
+            Email Template
+          </h2>
+          <p className="features-cards-content-paragraph">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
       </section>
-      <section className="features-cards-container">
-        <div className="features-cards-img">
-          <img src={ DownloadIcon } alt="Tablet icon" />
+      <section className="features-cards-card">
+        <div className="features-cards-img-container">
+          <div className="features-cards-img">
+            <img className="features-cards-img--img" src={ DownloadIcon } alt="Tablet icon" />
+          </div>
         </div>
         <div className="features-cards-content">
-          <h2>Free to download</h2>
-          <p>
+          <h2 className="features-cards-content-title">
+            Free to download
+          </h2>
+          <p className="features-cards-content-paragraph">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>

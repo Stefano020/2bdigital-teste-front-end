@@ -95,14 +95,46 @@ p {
 
 .features-header {
   text-align: center;
-  margin: 1rem; }
+  margin: 3rem 1rem 2rem 1rem; }
+
+.features-header-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 1rem; }
+
+.features-header-subtitle {
+  text-align: center;
+  color: #74746e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem; }
 
 .features-cards-container {
+  margin: 1rem 1rem 3rem 1rem; }
+
+.features-cards-card {
   display: flex;
-  margin: 1rem; }
+  margin-bottom: 2rem; }
+
+.features-cards-img-container {
+  margin-right: 0.8rem; }
 
 .features-cards-img {
-  width: 12rem; }
+  width: 5rem;
+  text-align: center;
+  padding-top: 0.2rem; }
+
+.features-cards-img--img {
+  width: 35px; }
+
+.features-cards-content-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem; }
+
+.features-cards-content-paragraph {
+  font-size: 1.2rem; }
 
 .support-background {
   background-color: #010101; }
