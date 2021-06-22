@@ -1,7 +1,7 @@
 // Base: contained within this file are all your resets, variables, mixins, and any utility classes.
 $white: rgba(255, 255, 255, 1);
 $yellow: rgba(253, 219, 0, 1);
-$grey: rgba(183, 183, 164, 1);
+$grey: rgb(116, 116, 110);
 $black: rgba(1, 1, 1, 1);
 
 *,
@@ -14,6 +14,10 @@ $black: rgba(1, 1, 1, 1);
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
