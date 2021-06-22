@@ -211,3 +211,10 @@ p {
     text-decoration: none;
     color: #a0a59a;
     margin-bottom: 0.3rem; }
+
+@media only screen and (min-width: 355px) {
+  .support-footer-container {
+    flex-wrap: nowrap;
+    margin: 0rem 1rem 0rem 1rem; }
+  .support-footer-menu section {
+    margin: 0rem 0.5rem 0.5rem 1rem; } }

@@ -1,0 +1,16 @@
+@media only screen and (min-width: 355px) {
+  // FOOTER LAYOUT
+  .support-footer-container {
+    flex-wrap: nowrap;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .support-footer-menu {
+    section {
+      margin: 0rem 0.5rem 0.5rem 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 640px) {
+}
