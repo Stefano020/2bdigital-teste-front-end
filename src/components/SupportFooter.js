@@ -4,7 +4,7 @@ export default function SupportFooter() {
   return (
     <div className="support-footer-container">
       <section className="support-footer-address">
-        <p>HALOVIETNAM LTD</p>
+        <p>HALOVIETNAM LTD </p>
         <p>66, Dang Van ngu, Dong Da Hanoi, Vietnam</p>
         <div className="anchors">
           <a href="mailto:contact@halovietnam.com">

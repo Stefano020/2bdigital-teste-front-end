@@ -6,7 +6,7 @@ import PinterestIcon from '../icons/pinterest-icon.png';
 import SupportFooter from './SupportFooter';
 
 export default function Support() {
-  const [email, setEmail] = useState('lalala');
+  const [email, setEmail] = useState('');
   
   const handleOnClick = () => {
     setEmail('');
@@ -47,7 +47,7 @@ export default function Support() {
             } }
             disabled={ !emailValidation(email) }
           >
-            Submit
+            SUBMIT
           </button>
         </section>
         <section className="support-icons-container">

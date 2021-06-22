@@ -12,6 +12,7 @@
 .header-logo {
   display: flex;
   align-items: center;
+  font-size: 2.5rem;
   margin: 1rem 0.5rem 0rem 0.8rem;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .header-menu-h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 // ARTICLE LAYOUT
@@ -34,25 +35,25 @@
 }
 
 .blog-article-title {
-  text-align: center;
-  font-size: 2.2rem;
+  text-align: left;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 1rem;
 }
 
 .blog-article-subtitle {
-  text-align: center;
+  text-align: left;
   color: $grey;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .blog-article-paragraph {
-  text-align: center;
-  font-size: 1rem;
-  line-height: 1.2rem;
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
 }
 
 .blog-article-icons--container {
@@ -64,7 +65,7 @@
 }
 
 .blog-article-icons--img {
-  width: 25px;
+  width: 28px;
 }
 
 // TABLET IMG LAYOUT

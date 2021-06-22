@@ -9,7 +9,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "PT Sans", sans-serif; }
 
 h1 {
   color: #010101; }
@@ -27,6 +27,7 @@ p {
 .header-logo {
   display: flex;
   align-items: center;
+  font-size: 2.5rem;
   margin: 1rem 0.5rem 0rem 0.8rem; }
 
 .header-logo-img {
@@ -37,29 +38,29 @@ p {
   margin: 1rem 1rem 0px 0px; }
 
 .header-menu-h4 {
-  font-size: 1.2rem; }
+  font-size: 1.5rem; }
 
 .blog-article-container {
   margin: 1rem; }
 
 .blog-article-title {
-  text-align: center;
-  font-size: 2.2rem;
+  text-align: left;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 1rem; }
 
 .blog-article-subtitle {
-  text-align: center;
+  text-align: left;
   color: #74746e;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.5rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 .blog-article-paragraph {
-  text-align: center;
-  font-size: 1rem;
-  line-height: 1.2rem; }
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.4rem; }
 
 .blog-article-icons--container {
   text-align: right;
@@ -68,7 +69,7 @@ p {
     margin-right: 1rem; }
 
 .blog-article-icons--img {
-  width: 25px; }
+  width: 28px; }
 
 .blog-tablet-container {
   text-align: center;
@@ -102,15 +103,15 @@ p {
 
 .features-header-title {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 1rem; }
 
 .features-header-subtitle {
   text-align: center;
   color: #74746e;
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 500;
   line-height: 1.5rem; }
 
 .features-cards-container {
@@ -134,10 +135,10 @@ p {
 .features-cards-content-title {
   font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 0.2rem; }
+  margin-bottom: 0.5rem; }
 
 .features-cards-content-paragraph {
-  font-size: 1.2rem; }
+  font-size: 1.3rem; }
 
 .support-background {
   background-color: #010101; }
@@ -149,35 +150,41 @@ p {
 
 .support-header-title {
   color: #fddb00;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 1rem; }
 
 .support-header-subtitle {
   text-align: center;
   color: #74746e;
-  font-size: 1.2rem;
-  line-height: 1.5rem; }
+  font-size: 1.6rem;
+  line-height: 1.7rem; }
 
 .input-container {
   text-align: center; }
 
 .email-input {
+  border-style: none;
   margin-right: 5px;
-  padding: 0.2rem 0rem 0.2rem 1rem; }
+  border-radius: 0.3rem;
+  padding: 1rem 1.5rem 1rem 1.5rem; }
 
 .submit-button {
   border: none;
-  font-weight: 600;
-  padding: 0.3rem 0.6rem 0.3rem 0.6rem;
-  background-color: #fddb00; }
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1.2rem 2rem 1.2rem 2rem;
+  background-color: #fddb00;
+  cursor: pointer; }
 
 .support-icons-container {
   text-align: center; }
 
 .support-icons-img {
   width: 25px;
-  margin: 2rem 0.5rem 2rem 0.5rem; }
+  margin: 4rem 0.5rem 4rem 0.5rem;
+  cursor: pointer; }
 
 .support-footer-container {
   display: flex;
@@ -186,11 +193,9 @@ p {
   padding-bottom: 2rem; }
 
 .support-footer-address {
-  text-align: center;
-  margin-bottom: 1rem; }
+  text-align: center; }
   .support-footer-address p {
-    color: #a0a59a;
-    margin-top: 0.3rem; }
+    color: #a0a59a; }
   .support-footer-address .anchors {
     padding-top: 0.5rem; }
   .support-footer-address .anchors > a {
@@ -200,7 +205,7 @@ p {
 .support-footer-menu {
   display: flex; }
   .support-footer-menu section {
-    margin: 1rem 1rem 0rem 1rem; }
+    margin: 1.3rem 1.5rem 0rem 1.5rem; }
   .support-footer-menu section > a {
     display: flex;
     text-decoration: none;
