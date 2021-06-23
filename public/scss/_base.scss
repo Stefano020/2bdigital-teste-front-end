@@ -1,16 +1,11 @@
 // Base: contained within this file are all your resets, variables, mixins, and any utility classes.
 $white: rgba(255, 255, 255, 1);
 $yellow: rgba(252, 219, 0, 1);
-// subtitle blog
-$grey-dark: rgba(49, 56, 65, 1);
-// paragraph blog
-$grey-medium: rgba(85, 85, 85, 1);
-// paragraph cards
 $grey-light: rgba(137, 137, 137, 1);
+$grey-medium: rgba(85, 85, 85, 1);
+$grey-dark: rgba(49, 56, 65, 1);
 $black: rgba(1, 1, 1, 1);
 
-$grey-white: rgb(160, 165, 154);
-$grey: rgba(116, 116, 110, 1);
 *,
 *::after,
 *::before {

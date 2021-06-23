@@ -216,7 +216,8 @@ a {
   .support-footer-address .anchors {
     padding-top: 0.5rem; }
   .support-footer-address .anchors > a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
 
 .support-footer-menu {
   display: flex; }
