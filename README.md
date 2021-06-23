@@ -68,7 +68,7 @@ O layout fornecido foi de uma página em versão desktop.
 ### O layout disponibilizado pela **2B Digital** :
 
   <img align="center" src="./front-end.jpg" alt="Layout 2B Digital" width="300px" />
-  
+
 &nbsp;
 
 ### <u> Mobile Layout</u>:
@@ -203,6 +203,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <div id="#-licença">
 
-Este projeto esta sobe a licença [MIT]("./LICENSE").
+Este projeto esta sobe a licença <a href="./LICENSE">MIT</a>.
 
 Feito por **Stefano Branz** [Entre em contato!](https://www.linkedin.com/in/stefano-branz/)
