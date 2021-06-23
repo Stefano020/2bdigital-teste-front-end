@@ -18,6 +18,13 @@
  <a href="#-licença">Licença</a>
 </p>
 
+<h2 align="center">
+  <u>Acese o App no link abaixo para testar!</u>
+  <br><a style="font-size: 25px; " href="https://stefano-branz-front-end.vercel.app/">
+    Tinyone
+  </a>
+</h2>
+
 ## 💻 Sobre o projeto
 
 <div id="-sobre-o-projeto">
@@ -60,36 +67,39 @@ O layout fornecido foi de uma página em versão desktop.
 
 ### O layout disponibilizado pela **2B Digital** :
 
-  <img align="center" src="./front-end.jpg" alt="Layout 2B Digital" />
+  <img align="center" src="./front-end.jpg" alt="Layout 2B Digital" width="300px" />
+  
 &nbsp;
 
 ### <u> Mobile Layout</u>:
 
-- **Blog Part :**
+**Blog Part :**
 
-  <img align="center" src="./layout-images/blog-mobile-layout.png" alt="Blog Mobile Layout"/>
+  <img align="center" width="300px" src="./layout-images/blog-mobile-layout.png" alt="Blog Mobile Layout"/>
 
-- **Features Part :**
+**Features Part :**
 
-  <img align="center" src="./layout-images/features-mobile-layout.png" alt="Features Mobile Layout"/>
+  <img align="center" width="300px" src="./layout-images/features-mobile-layout.png" alt="Features Mobile Layout"/>
 
-- **Support Part :**
+**Support Part :**
 
-  <img align="center" src="./layout-images/support-mobile-layout.png" alt="Support Mobile Layout"/>
+  <img align="center" width="300px" src="./layout-images/support-mobile-layout.png" alt="Support Mobile Layout"/>
+
+&nbsp;
 
 ### <u> Desktop Layout</u>:
 
-- **Blog Part :**
+**Blog Part :**
 
-  <img align="center" src="./layout-images/blog-desktop-layout.png" alt="Blog Desktop Layout"/>
+  <img align="center" width="400px" src="./layout-images/blog-desktop-layout.png" alt="Blog Desktop Layout"/>
 
-- **Features Part :**
+**Features Part :**
 
-  <img align="center" src="./layout-images/features-desktop-layout.png" alt="Features Desktop Layout"/>
+  <img align="center" width="400px" src="./layout-images/features-desktop-layout.png" alt="Features Desktop Layout"/>
 
-- **Support Part :**
+**Support Part :**
 
-  <img align="center" src="./layout-images/support-desktop-layout.png" alt="Support Desktop Layout"/>
+  <img align="center" width="400px" src="./layout-images/support-desktop-layout.png" alt="Support Desktop Layout"/>
 
 ---
 
