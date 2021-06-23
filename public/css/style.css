@@ -17,6 +17,12 @@ h1 {
 p {
   color: #74746e; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+  a :hover {
+    text-decoration: underline; }
+
 .blog-background {
   background-color: #fddb00; }
 
@@ -87,7 +93,7 @@ p {
   height: 1.2rem;
   width: 1.2rem;
   margin: 0 0.2rem;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease; }
@@ -109,13 +115,13 @@ p {
 
 .features-header-subtitle {
   text-align: center;
-  color: #74746e;
+  color: #010101;
   font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.5rem; }
+  font-weight: 100;
+  line-height: 2rem; }
 
 .features-cards-container {
-  margin: 1rem 1rem 3rem 1rem; }
+  margin: 2rem 1rem 3rem 1rem; }
 
 .features-cards-card {
   display: flex;
@@ -161,11 +167,12 @@ p {
   line-height: 1.7rem; }
 
 .input-container {
+  margin-bottom: 2.5rem;
   text-align: center; }
 
 .email-input {
   border-style: none;
-  margin-right: 5px;
+  margin-right: 0.5rem;
   border-radius: 0.3rem;
   padding: 1rem 1.5rem 1rem 1.5rem; }
 
@@ -179,11 +186,12 @@ p {
   cursor: pointer; }
 
 .support-icons-container {
+  margin-bottom: 6rem;
   text-align: center; }
 
 .support-icons-img {
-  width: 25px;
-  margin: 4rem 0.5rem 4rem 0.5rem;
+  width: 2.5rem;
+  margin: 0rem 0.5rem 0rem 0.5rem;
   cursor: pointer; }
 
 .support-footer-container {
@@ -211,6 +219,8 @@ p {
     text-decoration: none;
     color: #a0a59a;
     margin-bottom: 0.3rem; }
+    .support-footer-menu section > a :hover {
+      text-decoration: underline; }
 
 @media only screen and (min-width: 355px) {
   .support-footer-container {
@@ -218,3 +228,140 @@ p {
     margin: 0rem 1rem 0rem 1rem; }
   .support-footer-menu section {
     margin: 0rem 0.5rem 0.5rem 1rem; } }
+
+@media only screen and (min-width: 640px) {
+  .header-container {
+    padding-top: 4rem;
+    margin: 0rem 3rem 4rem 3rem; }
+  .header-logo {
+    margin: 0rem; }
+  .header-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0rem; }
+  .header-menu-h4 {
+    margin: 1.1rem;
+    font-size: 2rem; }
+  .article-tablet-container {
+    margin: 0rem 3rem 2rem 3rem;
+    display: flex; }
+  .blog-article-container {
+    margin: 0rem 7rem 0rem 0rem; }
+  .blog-article-icons--container {
+    margin-top: 3rem;
+    text-align: left; }
+    .blog-article-icons--container .blog-article-icons--img {
+      margin-right: 2rem; }
+  .blog-tablet-container {
+    margin: 0rem; }
+    .blog-tablet-container img {
+      width: 24rem; }
+  .features-header {
+    margin: 6rem 3rem 6rem 3rem; }
+  .features-cards-container {
+    margin: 0rem 3rem 3rem 7rem;
+    display: flex;
+    flex-flow: row wrap; }
+    .features-cards-container .features-cards-content {
+      margin-right: 4rem; }
+  .features-cards-img--img {
+    width: 40px; }
+  .features-cards-card {
+    flex-basis: 50%;
+    margin: 0rem 0rem 2rem 0rem; }
+  .support-header-container {
+    margin: 0rem 10rem 3rem 10rem;
+    padding-top: 6rem; }
+  .email-input {
+    font-size: 1.4rem;
+    padding: 1.3rem 6rem 1.3rem 6rem;
+    margin-right: 2rem; }
+  .submit-button {
+    font-size: 1.2rem;
+    padding: 1.5rem 2.5rem 1.3rem 2.5rem; }
+  .support-icons-img {
+    margin: 0rem 1.5rem 0rem 1.5rem; }
+  .support-footer-container {
+    font-size: 1.2rem;
+    margin: 0rem 3rem 0rem 3rem;
+    padding-top: 4rem; }
+  .support-footer-menu section {
+    margin: 0rem 3rem 0rem 3rem; } }
+
+@media only screen and (min-width: 1000px) {
+  .blog-background {
+    padding: 2rem 10rem 2rem 10rem; }
+  .header-container .header-logo-img {
+    margin-right: 1rem; }
+  .header-container h1 {
+    font-size: 2.6rem; }
+  .header-container h4 {
+    font-size: 2.2rem;
+    margin: 1.2rem 3rem 1.2rem 3rem; }
+  .blog-article-container {
+    margin: 8rem 12rem 0rem 0rem; }
+    .blog-article-container h2 {
+      font-size: 2.8rem;
+      line-height: 2.5rem;
+      margin-bottom: 2rem; }
+    .blog-article-container h5 {
+      font-size: 2rem;
+      line-height: 1.8rem;
+      font-weight: 300;
+      margin-bottom: 2rem; }
+    .blog-article-container p {
+      line-height: 1.8rem;
+      font-weight: 200;
+      line-height: 1.6rem; }
+    .blog-article-container .blog-article-icons--container {
+      margin-top: 3.5rem; }
+    .blog-article-container .blog-article-icons--img {
+      width: 3.5rem;
+      margin-right: 3rem; }
+  .blog-tablet-container {
+    margin: 0rem 3.1rem; }
+    .blog-tablet-container img {
+      width: 32rem; }
+  .features-background {
+    padding: 2rem 10rem 12rem 10rem; }
+  .features-header {
+    margin: 6rem 3rem 10rem 3rem; }
+    .features-header h1 {
+      font-size: 2.8rem; }
+    .features-header h3 {
+      font-size: 2rem;
+      line-height: 2.3rem;
+      font-weight: 100; }
+  .features-cards-container {
+    margin: 0rem 0rem 0rem 7rem; }
+  .features-cards-card {
+    flex-basis: 30%; }
+    .features-cards-card .features-cards-img-container {
+      margin-right: 2rem; }
+    .features-cards-card h2 {
+      font-size: 2.2rem;
+      font-weight: 400; }
+    .features-cards-card p {
+      font-size: 1.5rem; }
+  .features-cards-content h2 {
+    margin-bottom: 1rem; }
+  .support-background {
+    padding: 2rem 10rem 12rem 10rem; }
+  .support-header-container h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem; }
+  .support-header-container h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 400; }
+  .email-input {
+    padding: 1.3rem 20rem 1.3rem 20rem; }
+  .submit-button {
+    padding: 1.5rem 2.8rem 1.3rem 2.8rem; }
+  .support-icons-container {
+    margin: 6rem 0rem 6rem 0rem; }
+  .support-icons-img {
+    width: 3rem; }
+  .support-footer-container {
+    font-size: 1.4rem; } }

@@ -4,7 +4,7 @@ import FeatureCards from './FeaturesCards';
 export default function Features() {
   return (
     <div className="features-background">
-      <header className="features-header">
+      <header id="features" className="features-header">
         <h1 className="features-header-title">Tinyone features</h1>
         <h3 className="features-header-subtitle">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. 

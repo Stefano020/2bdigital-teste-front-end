@@ -14,13 +14,25 @@ export default function Blog() {
           tinyone
         </h1>
         <section className="header-menu">
-          <h4 className="header-menu-h4">Features</h4>
-          <h4 className="header-menu-h4">Support</h4>
-          <h4 className="header-menu-h4">Blog</h4>
+          <h4 className="header-menu-h4">
+            <a href="#features">
+                Features
+            </a>
+          </h4>
+          <h4 className="header-menu-h4">
+            <a href="#support">
+              Support
+            </a>
+          </h4>
+          <h4 className="header-menu-h4">
+            <a href="#header">
+              Blog
+            </a>
+          </h4>
         </section>
       </header>
       <main>
-        <section>
+        <section className="article-tablet-container">
           <article className="blog-article-container">
             <h2 className="blog-article-title">Inspire your inspiration</h2>
             <h5 className="blog-article-subtitle">Simple to use for your app, products showcase and your inspiration</h5>
@@ -31,9 +43,15 @@ export default function Blog() {
               a eros volupat tempor. In quis arcu et eros porta lobortis sit
             </p>
             <section className="blog-article-icons--container">
-              <img className="blog-article-icons--img" src={ AppleBlackIcon } alt="Apple icon" />
-              <img className="blog-article-icons--img" src={ AndroidBlackIcon } alt="Android icon" />
-              <img className="blog-article-icons--img" src={ WindowsBlackIcon } alt="Windows icon" />
+              <a href="https://apps.apple.com/us/app/apple-store/id375380948">
+                <img className="blog-article-icons--img" src={ AppleBlackIcon } alt="Apple icon" />
+              </a>
+              <a href="https://play.google.com/store">
+                <img className="blog-article-icons--img" src={ AndroidBlackIcon } alt="Android icon" />
+              </a>
+              <a href="https://www.microsoft.com/en-us/store/apps/windows">
+                <img className="blog-article-icons--img" src={ WindowsBlackIcon } alt="Windows icon" />
+              </a>
             </section>
           </article>
           <section className="blog-tablet-container">
@@ -43,12 +61,12 @@ export default function Blog() {
               className="blog-tablet-img"
             />
           </section>
+        </section>
           <section className="blog-carousel-container" >
             <span className="blog-carousel-dot" />
             <span className="blog-carousel-dot" />
             <span className="blog-carousel-dot" />
           </section>
-        </section>
       </main>
     </div>
   )

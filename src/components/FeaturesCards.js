@@ -8,8 +8,8 @@ import DownloadIcon from '../icons/download-icon.png';
 
 export default function FeaturesCards() {
   return (
-    <div className="features-cards-container">
-      <section className="features-cards-card">
+    <ul className="features-cards-container">
+      <li className="features-cards-card">
       <div className="features-cards-img-container">
         <div className="features-cards-img">
           <img className="features-cards-img--img" src={ IpadIcon } alt="Tablet icon" />
@@ -24,8 +24,8 @@ export default function FeaturesCards() {
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
-      </section>
-      <section className="features-cards-card">
+      </li>
+      <li className="features-cards-card">
         <div className="features-cards-img-container">
           <div className="features-cards-img">
             <img className="features-cards-img--img" src={ LayerIcon } alt="Tablet icon" />
@@ -40,8 +40,8 @@ export default function FeaturesCards() {
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
-      </section>
-      <section className="features-cards-card">
+      </li>
+      <li className="features-cards-card">
       <div className="features-cards-img-container">
         <div className="features-cards-img">
           <img className="features-cards-img--img" src={ FileIcon } alt="Tablet icon" />
@@ -56,8 +56,8 @@ export default function FeaturesCards() {
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
-      </section>
-      <section className="features-cards-card">
+      </li>
+      <li className="features-cards-card">
         <div className="features-cards-img-container">
           <div className="features-cards-img">
             <img className="features-cards-img--img" src={ HtmlIcon } alt="Tablet icon" />
@@ -72,8 +72,8 @@ export default function FeaturesCards() {
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
-      </section>
-      <section className="features-cards-card">
+      </li>
+      <li className="features-cards-card">
         <div className="features-cards-img-container">
           <div className="features-cards-img">
             <img className="features-cards-img--img" src={ EmailIcon } alt="Tablet icon" />
@@ -88,8 +88,8 @@ export default function FeaturesCards() {
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
-      </section>
-      <section className="features-cards-card">
+      </li>
+      <li className="features-cards-card">
         <div className="features-cards-img-container">
           <div className="features-cards-img">
             <img className="features-cards-img--img" src={ DownloadIcon } alt="Tablet icon" />
@@ -104,7 +104,7 @@ export default function FeaturesCards() {
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
-      </section>
-    </div>
+      </li>
+    </ul>
   )
 }
