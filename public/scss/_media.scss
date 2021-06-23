@@ -58,4 +58,29 @@
       width: 24rem;
     }
   }
+
+  //HEADER LAYOUT
+  .features-header {
+    margin: 6rem 3rem 6rem 3rem;
+  }
+
+  // CARDS LAYOUT
+  .features-cards-container {
+    margin: 0rem 3rem 3rem 3rem;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .features-cards-img--img {
+    width: 40px;
+  }
+
+  .features-cards-card {
+    flex-basis: 50%;
+    margin: 0rem 0rem 2rem 0rem;
+  }
+
+  .features-cards-content {
+    margin-right: 2rem;
+  }
 }

@@ -109,13 +109,13 @@ p {
 
 .features-header-subtitle {
   text-align: center;
-  color: #74746e;
+  color: #010101;
   font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.5rem; }
+  font-weight: 100;
+  line-height: 2rem; }
 
 .features-cards-container {
-  margin: 1rem 1rem 3rem 1rem; }
+  margin: 2rem 1rem 3rem 1rem; }
 
 .features-cards-card {
   display: flex;
@@ -245,4 +245,17 @@ p {
   .blog-tablet-container {
     margin: 0rem; }
     .blog-tablet-container img {
-      width: 24rem; } }
+      width: 24rem; }
+  .features-header {
+    margin: 6rem 3rem 6rem 3rem; }
+  .features-cards-container {
+    margin: 0rem 3rem 3rem 3rem;
+    display: flex;
+    flex-flow: row wrap; }
+  .features-cards-img--img {
+    width: 40px; }
+  .features-cards-card {
+    flex-basis: 50%;
+    margin: 0rem 0rem 2rem 0rem; }
+  .features-cards-content {
+    margin-right: 2rem; } }
