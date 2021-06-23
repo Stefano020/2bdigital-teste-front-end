@@ -17,6 +17,12 @@ h1 {
 p {
   color: #74746e; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+  a :hover {
+    text-decoration: underline; }
+
 .blog-background {
   background-color: #fddb00; }
 
@@ -161,6 +167,7 @@ p {
   line-height: 1.7rem; }
 
 .input-container {
+  margin-bottom: 2.5rem;
   text-align: center; }
 
 .email-input {
@@ -179,11 +186,12 @@ p {
   cursor: pointer; }
 
 .support-icons-container {
+  margin-bottom: 6rem;
   text-align: center; }
 
 .support-icons-img {
   width: 2.5rem;
-  margin: 4rem 0.5rem 4rem 0.5rem;
+  margin: 0rem 0.5rem 0rem 0.5rem;
   cursor: pointer; }
 
 .support-footer-container {
@@ -211,6 +219,8 @@ p {
     text-decoration: none;
     color: #a0a59a;
     margin-bottom: 0.3rem; }
+    .support-footer-menu section > a :hover {
+      text-decoration: underline; }
 
 @media only screen and (min-width: 355px) {
   .support-footer-container {
@@ -270,7 +280,7 @@ p {
     font-size: 1.2rem;
     padding: 1.5rem 2.5rem 1.3rem 2.5rem; }
   .support-icons-img {
-    margin: 4rem 1.5rem 4rem 1.5rem; }
+    margin: 0rem 1.5rem 0rem 1.5rem; }
   .support-footer-container {
     font-size: 1.2rem;
     margin: 0rem 3rem 0rem 3rem;
@@ -349,6 +359,8 @@ p {
     padding: 1.3rem 20rem 1.3rem 20rem; }
   .submit-button {
     padding: 1.5rem 2.8rem 1.3rem 2.8rem; }
+  .support-icons-container {
+    margin: 6rem 0rem 6rem 0rem; }
   .support-icons-img {
     width: 3rem; }
   .support-footer-container {

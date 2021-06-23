@@ -14,9 +14,21 @@ export default function Blog() {
           tinyone
         </h1>
         <section className="header-menu">
-          <h4 className="header-menu-h4">Features</h4>
-          <h4 className="header-menu-h4">Support</h4>
-          <h4 className="header-menu-h4">Blog</h4>
+          <h4 className="header-menu-h4">
+            <a href="#features">
+                Features
+            </a>
+          </h4>
+          <h4 className="header-menu-h4">
+            <a href="#support">
+              Support
+            </a>
+          </h4>
+          <h4 className="header-menu-h4">
+            <a href="#header">
+              Blog
+            </a>
+          </h4>
         </section>
       </header>
       <main>
@@ -31,9 +43,15 @@ export default function Blog() {
               a eros volupat tempor. In quis arcu et eros porta lobortis sit
             </p>
             <section className="blog-article-icons--container">
-              <img className="blog-article-icons--img" src={ AppleBlackIcon } alt="Apple icon" />
-              <img className="blog-article-icons--img" src={ AndroidBlackIcon } alt="Android icon" />
-              <img className="blog-article-icons--img" src={ WindowsBlackIcon } alt="Windows icon" />
+              <a href="https://apps.apple.com/us/app/apple-store/id375380948">
+                <img className="blog-article-icons--img" src={ AppleBlackIcon } alt="Apple icon" />
+              </a>
+              <a href="https://play.google.com/store">
+                <img className="blog-article-icons--img" src={ AndroidBlackIcon } alt="Android icon" />
+              </a>
+              <a href="https://www.microsoft.com/en-us/store/apps/windows">
+                <img className="blog-article-icons--img" src={ WindowsBlackIcon } alt="Windows icon" />
+              </a>
             </section>
           </article>
           <section className="blog-tablet-container">

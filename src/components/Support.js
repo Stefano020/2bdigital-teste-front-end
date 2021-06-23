@@ -19,7 +19,7 @@ export default function Support() {
   
   return (
     <div className="support-background">
-      <header className="support-header-container">
+      <header id="support" className="support-header-container">
         <h1 className="support-header-title">Keep in touch with us</h1>
         <h3 className="support-header-subtitle">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -51,10 +51,18 @@ export default function Support() {
           </button>
         </section>
         <section className="support-icons-container">
-          <img className="support-icons-img" src={ FacebookIcon } alt="Facebook icon" />
-          <img className="support-icons-img" src={ TwitterIcon } alt="Twitter icon" />
-          <img className="support-icons-img" src={ GoogleIcon } alt="Google icon" />
-          <img className="support-icons-img" src={ PinterestIcon } alt="Pinterest icon" />
+          <a href="http://www.facebook.com/">
+            <img className="support-icons-img" src={ FacebookIcon } alt="Facebook icon" />
+          </a>
+          <a href="https://twitter.com/">
+            <img className="support-icons-img" src={ TwitterIcon } alt="Twitter icon" />
+          </a>
+          <a href="https://www.google.com/">
+            <img className="support-icons-img" src={ GoogleIcon } alt="Google icon" />
+          </a>
+          <a href="https://br.pinterest.com/">
+            <img className="support-icons-img" src={ PinterestIcon } alt="Pinterest icon" />
+          </a>
         </section>
       </main>
       <footer>
