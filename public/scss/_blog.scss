@@ -1,5 +1,6 @@
 .blog-background {
   background-color: $yellow;
+  padding: 0rem 4rem 0rem 4rem;
 }
 
 // HEADER LAYOUT
@@ -26,6 +27,9 @@
 
 .header-menu-h4 {
   font-size: 1.5rem;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 // ARTICLE LAYOUT
@@ -42,7 +46,7 @@
 
 .blog-article-subtitle {
   text-align: left;
-  color: $grey;
+  color: $grey-dark;
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.5rem;
@@ -74,7 +78,7 @@
 }
 
 .blog-tablet-img {
-  width: 27.5rem;
+  width: 25rem;
 }
 
 // CAROUSEL LAYOUT
