@@ -249,13 +249,16 @@ p {
   .features-header {
     margin: 6rem 3rem 6rem 3rem; }
   .features-cards-container {
-    margin: 0rem 3rem 3rem 3rem;
+    margin: 0rem 3rem 3rem 7rem;
     display: flex;
     flex-flow: row wrap; }
+    .features-cards-container .features-cards-content {
+      margin-right: 4rem; }
   .features-cards-img--img {
     width: 40px; }
   .features-cards-card {
     flex-basis: 50%;
     margin: 0rem 0rem 2rem 0rem; }
-  .features-cards-content {
-    margin-right: 2rem; } }
+  .support-header-container {
+    margin: 0rem 10rem 4rem 10rem;
+    padding-top: 6rem; } }
