@@ -20,7 +20,7 @@ export default function FeaturesCards() {
             Fully Responsive
           </h2>
           <p className="features-cards-content-paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            1 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
@@ -28,7 +28,7 @@ export default function FeaturesCards() {
       <li className="features-cards-card">
         <div className="features-cards-img-container">
           <div className="features-cards-img">
-            <img className="features-cards-img--img" src={ LayerIcon } alt="Tablet icon" />
+            <img className="features-cards-img--img" src={ LayerIcon } alt="Layer icon" />
           </div>
         </div>
         <div className="features-cards-content">
@@ -36,7 +36,7 @@ export default function FeaturesCards() {
             Fully Layered PSD
           </h2>
           <p className="features-cards-content-paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            2 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
@@ -44,7 +44,7 @@ export default function FeaturesCards() {
       <li className="features-cards-card">
       <div className="features-cards-img-container">
         <div className="features-cards-img">
-          <img className="features-cards-img--img" src={ FileIcon } alt="Tablet icon" />
+          <img className="features-cards-img--img" src={ FileIcon } alt="File icon" />
         </div>
       </div>
         <div className="features-cards-content">
@@ -52,7 +52,7 @@ export default function FeaturesCards() {
             Font Awesome Icons
           </h2>
           <p className="features-cards-content-paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            3 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function FeaturesCards() {
       <li className="features-cards-card">
         <div className="features-cards-img-container">
           <div className="features-cards-img">
-            <img className="features-cards-img--img" src={ HtmlIcon } alt="Tablet icon" />
+            <img className="features-cards-img--img" src={ HtmlIcon } alt="Html icon" />
           </div>
         </div>
         <div className="features-cards-content">
@@ -68,7 +68,7 @@ export default function FeaturesCards() {
             HTML3 & CSS3
           </h2>
           <p className="features-cards-content-paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            4 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
@@ -76,7 +76,7 @@ export default function FeaturesCards() {
       <li className="features-cards-card">
         <div className="features-cards-img-container">
           <div className="features-cards-img">
-            <img className="features-cards-img--img" src={ EmailIcon } alt="Tablet icon" />
+            <img className="features-cards-img--img" src={ EmailIcon } alt="Email icon" />
           </div>
         </div>
         <div className="features-cards-content">
@@ -84,7 +84,7 @@ export default function FeaturesCards() {
             Email Template
           </h2>
           <p className="features-cards-content-paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            5 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>
@@ -92,7 +92,7 @@ export default function FeaturesCards() {
       <li className="features-cards-card">
         <div className="features-cards-img-container">
           <div className="features-cards-img">
-            <img className="features-cards-img--img" src={ DownloadIcon } alt="Tablet icon" />
+            <img className="features-cards-img--img" src={ DownloadIcon } alt="Download icon" />
           </div>
         </div>
         <div className="features-cards-content">
@@ -100,7 +100,7 @@ export default function FeaturesCards() {
             Free to download
           </h2>
           <p className="features-cards-content-paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            6 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Ab possimus deleniti nulla error eligendi exercitationem amet necessitatibus.
           </p>
         </div>

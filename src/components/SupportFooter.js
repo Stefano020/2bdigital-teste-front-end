@@ -17,25 +17,25 @@ export default function SupportFooter() {
       </section>
       <div className="support-footer-menu">
         <section>
-          <a href="#header">Examples</a>
-          <a href="#header">Shop</a>
-          <a href="#header">License</a>
+          <a data-testid="examples-link" href="#header">Examples</a>
+          <a data-testid="shop-link" href="#header">Shop</a>
+          <a data-testid="license-link" href="#header">License</a>
         </section>
         <section>
-          <a href="#header">Contact</a>
-          <a href="#header">About</a>
-          <a href="#header">Privacy</a>
-          <a href="#header">Term</a>
+          <a data-testid="contact-link" href="#header">Contact</a>
+          <a data-testid="about-link" href="#header">About</a>
+          <a data-testid="privacy-link" href="#header">Privacy</a>
+          <a data-testid="terms-link" href="#header">Terms</a>
         </section>
         <section>
-          <a href="#header">Download</a>
-          <a href="#header">Support</a>
-          <a href="#header">Documents</a>
+          <a data-testid="download-link" href="#header">Download</a>
+          <a data-testid="support-link" href="#header">Support</a>
+          <a data-testid="documents-link" href="#header">Documents</a>
         </section>
         <section>
-          <a href="#header">Media</a>
-          <a href="#header">Blog</a>
-          <a href="#header">Forums</a>
+          <a data-testid="media-link" href="#header">Media</a>
+          <a data-testid="blog-link" href="#header">Blog</a>
+          <a data-testid="forums-link" href="#header">Forums</a>
         </section>
       </div>
     </div>

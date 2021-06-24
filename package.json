@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -15,6 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "CI=true npm test -- --env=jsdom --coverage",
     "eject": "react-scripts eject",
     "compile:scss": "node-sass public/scss/main.scss public/css/style.css -w"
   },
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^11.2.7",
     "node-sass": "^6.0.0"
   }
 }

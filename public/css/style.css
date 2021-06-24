@@ -218,6 +218,9 @@ a {
   .support-footer-address .anchors > a {
     text-decoration: none;
     color: white; }
+    .support-footer-address .anchors > a:hover {
+      text-decoration: underline;
+      text-decoration-color: white; }
 
 .support-footer-menu {
   display: flex; }
