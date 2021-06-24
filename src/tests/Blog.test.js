@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import App from '../App';
 
 describe('1 - Testing Blog Component Header section', () => {
-  it('test if logo name tinyone', () => {
+  it('test if logo name is tinyone', () => {
     const { getByText } = render(<App />);
   
     const headerLogoName = getByText('tinyone');
@@ -25,7 +25,7 @@ describe('1 - Testing Blog Component Header section', () => {
 });
 
 describe('2 - Testing Blog Component Main section', () => {
-  it('test if Blog title to be alright', () => {
+  it('test if Blog title to be correct', () => {
     const { getByText } = render(<App />);
 
     const blogTitle = getByText('Inspire your inspiration');
@@ -33,7 +33,7 @@ describe('2 - Testing Blog Component Main section', () => {
     expect(blogTitle).toBeInTheDocument();
   });
 
-  it('test if blog subtitle to be alright', () => {
+  it('test if blog subtitle to be correct', () => {
     const { getByText } = render(<App />);
 
     const blogTitle = getByText(
@@ -43,7 +43,7 @@ describe('2 - Testing Blog Component Main section', () => {
     expect(blogTitle).toBeInTheDocument();
   });
 
-  it('test if blog paragraph to be alright', () => {
+  it('test if blog paragraph to be correct', () => {
     const { getByText } = render(<App />);
 
     const blogParagraph = getByText(
