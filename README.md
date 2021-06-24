@@ -153,6 +153,41 @@ $ npm run start
 
 ---
 
+## :construction: Testes unitários
+
+Foram implementados **testes unitários** para percorrer todos os componentes do aplicativo. Eles validam se as informações de cada elemento estão corretas, renderizando e caso tenham alguma função se a realizam de forma adequada.
+
+### <u>Para rodar os testes</u>:
+
+&nbsp;
+
+```bash
+
+# Vá na pasta raiz do seu projeto
+# Abra o terminal
+
+# Para rodar todos os projetos de uma só vez
+$ npm run test
+
+# Para rodar os testes por componente
+$ npm run test tests/nome_do_componente.test.js
+
+```
+
+&nbsp;
+
+**Cobertura testes src/pages:**
+
+<img align="center" width="800px" src="./tests-coverage-images/pages-tests.png" alt="/Pages tests coverage"/>
+
+&nbsp;
+
+**Cobertura testes src/components**
+
+<img align="center" width="800px" src="./tests-coverage-images/components-tests.png" alt="/Pages tests coverage"/>
+
+---
+
 ## 🛠 Tecnologias
 
 <div id="-tecnologias">
@@ -163,6 +198,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - **[React](https://reactjs.org/)**
   - **[Hooks](https://reactjs.org/docs/hooks-intro.html)**
+  - **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)**
 - **[JavaScript](https://www.javascript.com/)**
 - **[Sass](https://sass-lang.com/)**
   - **[SCSS Syntax](https://sass-lang.com/documentation/syntax)**
