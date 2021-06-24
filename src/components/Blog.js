@@ -62,10 +62,12 @@ export default function Blog() {
             />
           </section>
         </section>
-          <section className="blog-carousel-container" >
-            <span className="blog-carousel-dot" />
-            <span className="blog-carousel-dot" />
-            <span className="blog-carousel-dot" />
+          <section
+            className="blog-carousel-container"
+          >
+            <span className="blog-carousel-dot" data-testid="blog-carousel" />
+            <span className="blog-carousel-dot" data-testid="blog-carousel" />
+            <span className="blog-carousel-dot" data-testid="blog-carousel" />
           </section>
       </main>
     </div>
