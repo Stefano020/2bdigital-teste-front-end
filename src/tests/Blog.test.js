@@ -65,6 +65,18 @@ describe('2 - Testing Blog Component Main section', () => {
     expect(windowsLink).toBeInTheDocument();
   });
 
+  it('test if Apple, Android and Windows links get to the correct link', () => {
+    const { getByAltText } = render(<App />);
+
+    const appleLink = getByAltText('Apple icon');
+    const androidLink = getByAltText('Android icon');
+    const windowsLink = getByAltText('Windows icon');
+
+    expect(appleLink.closest('a')).toHaveAttribute('href', 'https://apps.apple.com/us/app/apple-store/id375380948');
+    expect(androidLink.closest('a')).toHaveAttribute('href', 'https://play.google.com/store');
+    expect(windowsLink.closest('a')).toHaveAttribute('href', 'https://www.microsoft.com/en-us/store/apps/windows');
+  })
+
   it('test if ipad image exists', () => {
     const { getByAltText } = render(<App />);
 
